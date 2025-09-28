@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-const pdf = process.env.PUBLIC_URL + "/rahulsingh_resume.pdf";
+const pdf = "/rahulsingh_resume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
